@@ -1,0 +1,40 @@
+div{
+    border: 5px solid red!important;
+    /* cursor: all-scroll; */
+    /* cursor: cell; */
+    /* cursor: col-resize; */
+    /* cursor: crosshair; */
+    /* cursor: e-resize; */
+    /* cursor: grab; */
+    /* cursor:help; */
+    /* cursor: not-allowed; */
+    /* cursor: pointer; */
+    /* cursor: progress; */
+    /* cursor: wait; */
+    /* cursor: zoom-in; */
+    /* cursor: zoom-out; */
+}
+div{
+    border: 5px solid green;
+}
+html{
+    /* font-size: 14px; */
+}
+#parent{
+    /* border: 1px solid red; */
+    /* width:500pc; */
+    /* width: 800px; */
+    /* width: 500pt; */
+    /* height: 100vh; */
+    /* width: 50vw; */
+    /* vh and vw set itself of browser screensize */
+    /* font-size: 10vw; */
+}
+#child{
+    /* border: 1px solid blue;
+    width: 50%; */
+    /* font-size: 2em; */
+    /* font-size: 10rem; */
+
+
+}

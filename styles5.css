@@ -1,0 +1,45 @@
+#text{
+    width:200px; 
+    border: 1px solid black;
+    /* color:blue; */
+    /* text-align: left; text-align is left by default */
+    /* text-align: center; */
+    /* text-align: justify; *//* fill all words from left to right */
+    /* direction: rtl;  */ /*text direction start from right to left*/
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-transform:uppercase ; */
+    /* text-transform:lowercase ; */
+    /* text-transform:capitalize ; */
+    /*line-height: 50px;*/ /*create gap b/w line*/
+    /* line-height: 0px; */ /*overlap all lines*/
+    /* text-indent: 50px; */ /*use for text indent*/
+    /* letter-spacing: 10px; */ /* create gap b/w each letter*/
+    /* word-spacing: 30px; *//* create gap b/w each words*/
+    /* white-space: pre;  */
+    /* white-space: nowrap; */ /* take all content in one line*/
+    /* word-wrap: break-word; */ /* use for breaking the big letter of word*/
+
+
+
+}
+#text1{
+    width: 500px;
+    border: 1px solid red;
+    /* writing-mode: vertical-lr; */
+    /* writing-mode: vertical-rl; */ /* create mode of writting
+}
+#shadow{
+    /* font-size: 70px;
+    text-shadow: 5px 10px 5px red; first val is use for harazantial shadow and second for vartical shadow third use for blurring the shadow and fourth use for color of shadow */
+
+}
+img{
+    /* border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+    vertical-align: middle;
+    vertical-align: top;   text start from top,middle and bottom of the img */
+}

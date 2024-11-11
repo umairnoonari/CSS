@@ -1,0 +1,52 @@
+.flex-container{
+    background-color: indianred;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column;
+    flex-direction: column-reverse; */
+    /* flex-direction: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* height:70vh; */
+    /* align-items: stretch; */
+    /* align-items: center ; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap; */
+    /* align-content: flex-end; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    height: 400px;
+}
+.flex-child{
+    background-color: wheat;
+    margin:20px;
+    padding: 20px;
+    /* display: inline-block; */
+    width: 100px;
+    text-align: center;
+}
+#one{
+    /* order:2; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+    align-self: flex-start;
+}
+#two{
+    /* flex-grow: 4; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 300px; */
+    align-self: center;
+}
+#three{
+    /* flex-grow: 1; */
+    align-self: flex-end;
+}

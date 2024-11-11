@@ -1,0 +1,32 @@
+.display{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+    /* display: inline; */
+    display: inline-block;
+}
+#div1{
+    /* display: none; */ /* not take  space*/
+    visibility: hidden;  /*take space */
+    height:1000px ;
+}
+/* block
+div
+1. start new line
+2.take full width
+3.apply height and width
+p
+h1-h6
+form
+inline
+1.not start new line
+2. no take full width
+3.not apply height and width
+a
+img
+span
+inline-block
+1.not start new line
+2. no take full width
+3.take height and width
+none */

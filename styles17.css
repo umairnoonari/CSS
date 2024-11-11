@@ -1,0 +1,21 @@
+/* selector::pseduo-element{
+
+} */
+ /* p::first-letter{
+    font-size: 35px;
+    color:red;
+ } */
+ p::first-line{
+    font-size: 35px;
+    color:red;
+ }
+ h1::before{
+    content: url(images/2.jpg);
+ }
+ h1::after{
+    content: "added after";
+ }
+ ::selection{
+    color: red;
+    background: aqua;
+ }

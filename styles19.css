@@ -1,0 +1,59 @@
+body{
+    height: 1000px;
+
+}
+#parent{
+    padding:20px;
+    width: 50%;
+    margin: 100px;
+    position: relative;
+    
+}
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    /*position: relative;*/ /*move from own position and don't take own space other element untill other element move from external effect*/
+    /* top:50px;
+    left:50px;  */
+    /*position: absolute;*/ /* move from parent element position if parent element contain 'position' of relative or absolute otherwise element consider body as parent position and also must apply top or bottom or left or right */
+    /* top:0px;
+    left: 0px; */
+    /* position: fixed;
+    bottom: 10px;
+    right: 10px; */
+    position: relative;
+    top:50px;
+    left: -50px;
+    z-index: 3;
+
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: inline-block;
+    position: relative;
+    top:100px;
+    left: -100px;
+    z-index: 1;
+}
+/* 1.static(default) (normal flow)
+2.relative
+3.fixed
+4.absolute */
+
+/* 1.top
+2.bottom
+3.left
+4.right */

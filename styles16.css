@@ -1,0 +1,27 @@
+/* selector:pseudo-classes{
+
+} */
+input:focus{
+    border: 3px solid aqua;
+}
+li:first-child{
+    color:red;
+}
+li:last-child{
+    color:red;
+}
+li:nth-last-child(2){
+    color: aqua;
+}
+/* li:nth-child(3n+1){
+    color: brown;
+} */
+/* li:nth-child(odd){
+    color: blueviolet;
+} */
+/* li:nth-child(even){
+    color: blue;
+} */
+/* li:nth-child(4){
+    color: aqua;
+} */

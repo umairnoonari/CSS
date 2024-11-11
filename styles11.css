@@ -1,0 +1,19 @@
+ ul{
+    /* list-style-type: none; */
+    /* list-style-type: circle; */
+    list-style-type: square;
+    /* list-style-image: url('images/st.jpg'); */
+    /*list-style-position: outside;*//*use for whatever we select style-type it should be outside of listbox*/
+    /* list-style-position: inside; */ /*use for whatever we select style-type it should be insite of listbox*/
+ }
+ ol{
+    /* list-style-type:lower-alpha ; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type: upper-roman; */
+    /* list-style-type: decimal; */
+    list-style-type:decimal-leading-zero;
+ }
+li{
+    border: 1px solid black;
+}

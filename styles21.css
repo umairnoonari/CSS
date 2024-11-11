@@ -1,0 +1,33 @@
+#wrapper{
+    padding: 20px;
+    margin: 100px;
+    background-color: yellow;
+    /* transform: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()); */
+    /* transform: matrix(1,-0.2,0,1,0,0); *//*take all values of transform*/
+}
+a{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+    /* transform: translate(50px,50px);
+    display: inline-block; */
+    display: inline-block;
+    /* transform: skew(20deg,10deg); */
+    /* transform: skewX(-20deg); *//*moving element and making element like italic or more italic  */
+    /* transform:skewY(20deg) ; */
+    /* transform: rotate(20deg); */
+   /* transform-origin: 0% 100%; */
+   }
+a:hover{
+    
+    /* display: inline-block; */
+    /* transform: translate(50px,50px); */ /*moving from one to another location*/
+    /* transform: rotate(20deg); */
+    /* transform: rotate(-20deg);  */
+    /* transform: scale(0.8,0.7);  */
+    /* transform: scaleX(0.8);  */ /*these scale properties increasing size in X  and Y axis*/
+    /* transform: scaleY(0.8);  */
+    
+}
+/* 2D tranform donot work inline element it work on block and inline-block */

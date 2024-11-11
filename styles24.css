@@ -1,0 +1,54 @@
+@keyframes changecolor {
+    0%{background-color: red;border-radius: 0%;}
+    10%{background-color: yellow;border-radius: 10%;}
+    20%{background-color: green;border-radius: 20%;}
+    30%{background-color: orange;border-radius: 30%;}
+    40%{background-color: red;border-radius: 40%;}
+    50%{background-color: olive;border-radius: 50%;}
+    60%{background-color: orange;border-radius: 40%;}
+    70%{background-color: green;border-radius: 30%;}
+    80%{background-color: blue;border-radius: 20%;}
+    90%{background-color: violet;border-radius: 10%;}
+    100%{background-color: blueviolet;border-radius: 0%;}
+    /* 0%{background-color: red;} */
+    /* 25%{background-color: rgb(132, 185, 34);} */
+    /* 25%{width: 300px;}
+    50%{background-color: bisque;} */
+    /* 75%{background-color: blueviolet;} */
+    /* 75%{width: 200px;}
+    100%{background-color: yellow;} */
+
+    /* from{background-color: red;}
+    to{background-color: aqua;} */
+}
+#animate{
+    background-color:red;
+    height: 300px;
+    width: 300px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    /* animation-delay: 3s; */
+    /* animation-iteration-count: 4; */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+#animate2{
+    background-color:red;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 4s;
+    /* animation-delay: 3s; */
+    /* animation-iteration-count: 4; */
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: ease-in-out; */
+    animation-timing-function: linear;
+
+}

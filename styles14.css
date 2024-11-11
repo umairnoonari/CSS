@@ -1,0 +1,27 @@
+.green{
+    color: green;
+}
+#blue{
+    color: red;
+}
+#initail
+{
+    color: initial;/*default css property is applied to it */
+}
+#inhert{
+    color: inherit; /* parent element property applied to it*/
+}
+#div1{
+    background-color: blueviolet;
+    width: 600px;
+    height: 150px;
+}
+#div2{
+    background-color: chocolate;
+    width: 600px;
+    height: 150px;
+    padding: 50px;
+    border: 10px solid black;
+    /* box-sizing: content-box; *//* by default box-sizing content-box and it increase the size of box when we add border and padding*/
+    box-sizing: border-box;/* whatever the box size it adjust border and padding without increasing boxsize and it shrink the size of content*/
+}

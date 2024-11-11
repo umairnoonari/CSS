@@ -1,0 +1,36 @@
+ @font-face {
+    font-family: "abc xyz";
+    src: url('fonts/Poppins-Black.ttf');
+ }
+h1{
+    /* font-weight: 200; */
+    /* font-family: abc; */
+    /* font-family: "Raleway", sans-serif; */
+}
+p{
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* font-family: "Poppins", sans-serif; */
+    /* font-variant: small-caps;  */
+    /* font-family: "abc xyz",'Poppins', sans-serif; */
+    font:  small-caps 600  20px "abc xyz"
+}
+
+
+/* a{
+    text-decoration: none;
+
+}
+a:link{
+    color:rgb(26, 0, 172);
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color:aqua;
+}
+a:active{
+    color: red;
+} */

@@ -1,0 +1,37 @@
+/* h1,p{
+    color:red; select all anchor tag and h1 tag
+} */
+/* div~a{
+    color: red; select sibling of div block
+} */
+/* div+a{
+    color:red; select those element whose come just after div taf
+} */
+/* div>a{
+    color:red; select anchor tag as a direct child
+} */
+/* div a{
+    color:red; select all anchor tag of div block
+} */
+/* *{
+    border: 1px solid red; universal selector
+} */
+/* a[href="https://www.google.com"]{
+    color:red; attribute selector select element whose attribute is this href="https://www.google.com"
+} */
+/* p::first-line{
+    font-size:50px;
+    color:red; element selector
+} */
+/* a:hover{
+    color:aqua; pseduo-selector
+} */
+/* li{
+    color:red; element
+} */
+/* #list2{
+    color:red; id
+} */
+/* .list5{
+    color:red; class
+} */

@@ -1,0 +1,22 @@
+.div1{
+    border: 1px solid red;
+    padding : 25px 50px 30px 70px;
+}
+/* body{
+    border: 5px dotted green;
+} */
+#marg{
+    /* margin-top: -30px; it is only use in margin
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 10px; */
+    /* margin: 25px; */
+    /* margin: 25px 12px; */
+    /* margin: 25px 12px 40px 60px; */
+    /* width: 200px;
+    margin:20px auto; */ /*auto use for center the element 20px use for giving margin from left and right*/
+    margin-top: 50px; /* if margins are used then bigger margin is used it only work in margin-top and bottom */
+}
+#col{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,20 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 100px;
+    /* transition-property: width; */
+    /* transition-property: width,background-color; */
+    /* transition-property: all;
+    transition-duration: 500ms; */
+    /* transition-delay: 500ms; */
+    /* transition-timing-function: ease; *//*by default*/
+    /*transition-timing-function: ease-in-out;*//*start slow and end slow and in middle fasts*/
+    /* transition: property,duration,timing-function,delay; */
+    transition: width 2s,height 10s;
+}
+#div1:hover{
+    /* background-color: aquamarine; */
+    width: 200px;
+    height: 500px;
+}

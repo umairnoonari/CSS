@@ -1,0 +1,58 @@
+#content{
+    width: 70%;
+    background-color: green;
+    height: 200px;
+    float: left;
+}
+#sidebar{
+    width: 30%;
+    background-color: indianred;
+    height: 130px;
+    float: left;
+}
+#footer{
+    background-color:yellowgreen;
+    clear: both; /*don't occur in both direction of float left and float right*/
+
+}
+/* p{
+    border: 1px solid red;
+    overflow: auto;
+} */
+img{
+    /* width: 100px;
+    height: auto; */
+    /* float: right; */
+}
+#img1{
+    /* float: right; */
+}
+#img2{
+    /* float:right; */
+    /*clear: right;*/ /*specify that don't set itself right of float right ele*/
+}
+ul{
+    /* background-color: aquamarine;
+    list-style-type: none; */
+    /* border: 1px solid red; */
+    /* border-radius: 15px;
+    overflow: auto; */
+}
+li{
+    /* color: black;
+    padding: 30px 25px;
+    float: left; */
+    
+}
+/* img{
+    height: auto;
+    width: 100px;
+    padding: 10px;
+}
+#img1{
+    float: right;
+}
+#img2{
+    float: left;
+
+} */

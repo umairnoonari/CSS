@@ -1,0 +1,23 @@
+#sprites{
+    height: 250px;
+    background-image: url('images/sprites.png');
+    background-repeat: no-repeat;
+    background-position: 0px -270px;
+    /* background-position: 0px -530px; */
+
+}
+img{
+    width: 50vw;
+    height: 50vh;
+    /* filter: blur(10px); */
+    /* filter: brightness(10%); */
+    /* filter: contrast(60%); */
+    /* filter: drop-shadow(8px 8px 5px green ); */
+    /* filter: grayscale(100%); *//*convert into black and white depend on %
+    /* filter: hue-rotate(90deg); */ /*convert into green color depend deg*/
+    /* filter: invert(50%);  */
+    /* filter: opacity(30%); */
+    /* filter: saturate(30%); */
+    /* filter: sepia(70%); */
+    filter: brightness(80%),contrast(100%);
+}

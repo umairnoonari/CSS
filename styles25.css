@@ -1,0 +1,20 @@
+@media screen{
+    p{
+        font-size: 20px;
+    }
+}/*this is for general screen which is shown to us*/
+@media print{
+    p{
+        font-size: 30px;
+    }
+    img{
+        display: none;
+    }
+    div{
+        width: 50%;
+    }
+}/*this is use for when we convert the page into pdf or anything else */
+img{
+    width: 70vw;
+    height: 70vh;
+}

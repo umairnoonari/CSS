@@ -1,0 +1,30 @@
+#overflow{
+    background-color: whitesmoke;
+    border: 1px  solid red;
+    width: 500px;
+    height: 300px;
+    /* overflow: visible; *//*by default it is visible*/
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-x:hidden;
+    overflow-y: scroll; */
+    overflow: auto; /*it is use and add scroll when content is more than box*/
+    /* resize:both; */ /*we can resize only those elements which are block and overflow property should be an auto, scroll or hidden
+    /* resize: horizontal; */
+    /* resize: vertical; */
+
+}
+textarea{
+    resize: none;
+}
+#div1{
+    height: 500px;
+    border: 1px solid gray;
+    /* background-image: linear-gradient(green,blue,red); *//*color combination of green blue and red from top to bottom*/
+    /* background-image: linear-gradient(to right,green,blue,red); */
+    /* background-image: linear-gradient(to bottom right,green,blue,red); */
+    /* background-image: linear-gradient(160deg,green,blue,red); */
+    /* background-image: radial-gradient(green,blue,red); */ /*by default it is in ecliples*?
+    /* background-image: radial-gradient(circle,green ,blue,red); *//*now it is in cirle*/
+    /* background-image: radial-gradient(circle,green 20%,blue 30%,red 50%); *//* here each color take occupation */
+}

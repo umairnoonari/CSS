@@ -1,0 +1,26 @@
+p{
+    color: #ff0700;
+}
+.green-text{
+    color:green
+}
+#h{
+    color: rgba(0,0, blue,0.5);
+    font-size: 50px;
+}
+h1{
+    color: red;
+}
+
+#p3{
+    color:blue;
+}
+
+
+.underline-h{
+    text-decoration: underline;
+}
+/* #h{
+    color: orange;
+    font-size: 50px;
+} */
